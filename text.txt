@@ -1,0 +1,73 @@
+/*
+array (size=3)
+  'headers' => 
+    array (size=2)
+      'Authorization' => string 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJqMW5fdWdwRlFhLUMxbHJlRTZySXp3IiwiZXhwIjoxNjU4MTM3MTc2fQ.pbHUFWTzAZ7CfK8t8P0dyy9Okjpc40DWrllOKhpjZ6c' (length=154)
+      'Content-Type' => string 'application/json' (length=16)
+  'body' => string '{"topic":"nazmun Naher with meeting today please check","start_time":"2022-07-19","password":"1234","duration":60}' (length=114)
+  'method' => string 'POST' (length=4)
+
+  */
+
+
+    function write_to_file($data, $file_path)
+    {
+        if (file_exists($file_path)) {
+            $openFile = fopen($file_path, 'c');
+            fwrite($openFile, $data . "\n");
+        } else {
+            $openFile = fopen($file_path, 'w');
+            fwrite($openFile, $data . "\n");
+        }
+        fclose($openFile);
+    }
+
+
+/*
+function my_custom_menu_page()
+{
+    function my_generate_jwt_key()
+    {
+        $key = 'j1n_ugpFQa-C1lreE6rIzw';
+        $secret = 'rxlan32Bv5Va3ATVuYLQJUwalAqYg49ZW8yq';
+        $token = array(
+            'iss' => $key,
+            'exp' => time() + 3600, // 60 seconds as suggested
+        );
+        return JWT::encode($token, $secret);
+    }
+
+    $data['host_id'] = 'tarikul47@gmail.com';
+
+    $data = [
+        'topic' => "New Meeting by Raju at night",
+        'start_time' => '2022-07-19',
+        'password' => '1234',
+        'duration' => 60,
+    ];
+
+    // create arguments
+    $arguments = [
+        'method' => 'POST',
+        'sslverify' => false,
+        'body' => !empty($data) ? wp_json_encode($data) : array(),
+        'headers' => [
+            'Authorization' => 'Bearer ' . my_generate_jwt_key(),
+            'Content-Type' => 'application/json',
+        ],
+    ];
+
+    $remote_url = "https://api.zoom.us/v2/users/{$data['host_id']}/meetings";
+
+    $response = wp_remote_post($remote_url, $arguments);
+    $response_code = wp_remote_retrieve_response_code($response);
+
+    if (is_wp_error($response)) {
+        $data = date('d m Y g:i:a ') . $response->get_error_message();
+    } else {
+        $data = wp_remote_retrieve_body($response) . "\n";
+    }
+
+    return $data;
+}
+*/

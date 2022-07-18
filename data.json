@@ -1,0 +1,19 @@
+{"uuid":"CevTShO+RRazbtQwq6tGIQ==","id":77096538912,"host_id":"l8QAoQNLSICAotICn0HukQ","host_email":"tarikul47@gmail.com","topic":"New Meeting by Raju at night","type":2,"status":"waiting","start_time":"2022-07-18T11:53:22Z","duration":60,"timezone":"Asia/Dhaka","created_at":"2022-07-18T11:53:22Z","start_url":"https://us04web.zoom.us/s/77096538912?zak=eyJ0eXAiOiJKV1QiLCJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsImFsZyI6IkhTMjU2In0.eyJhdWQiOiJjbGllbnRzbSIsInVpZCI6Imw4UUFvUU5MU0lDQW90SUNuMEh1a1EiLCJpc3MiOiJ3ZWIiLCJzayI6IjAiLCJzdHkiOjEwMCwid2NkIjoidXMwNCIsImNsdCI6MCwibW51bSI6Ijc3MDk2NTM4OTEyIiwiZXhwIjoxNjU4MTUyNDAyLCJpYXQiOjE2NTgxNDUyMDIsImFpZCI6IjdkS2hKeW56U1ZxUFNrMTZZODFvSVEiLCJjaWQiOiIifQ.V3cLN6Zgf7bvaNeACEYzNJq7BfCwxESGnzNwrftw70Q","join_url":"https://us04web.zoom.us/j/77096538912?pwd=SxlrxkubIL6GseWa1F2-Thtk-WKW_p.1","password":"1234","h323_password":"1234","pstn_password":"1234","encrypted_password":"SxlrxkubIL6GseWa1F2-Thtk-WKW_p.1","settings":{"host_video":false,"participant_video":false,"cn_meeting":false,"in_meeting":false,"join_before_host":false,"jbh_time":0,"mute_upon_entry":false,"watermark":false,"use_pmi":false,"approval_type":2,"audio":"voip","auto_recording":"none","enforce_login":false,"enforce_login_domains":"","alternative_hosts":"","alternative_host_update_polls":false,"close_registration":false,"show_share_button":false,"allow_multiple_devices":false,"registrants_confirmation_email":true,"waiting_room":true,"request_permission_to_unmute_participants":false,"registrants_email_notification":true,"meeting_authentication":false,"encryption_type":"enhanced_encryption","approved_or_denied_countries_or_regions":{"enable":false},"breakout_room":{"enable":false},"alternative_hosts_email_notification":true,"device_testing":false,"focus_mode":false,"private_meeting":false,"email_notification":true,"host_save_video_order":false},"pre_schedule":false}
+
+ng_authentication": false,
+        "encryption_type": "enhanced_encryption",
+        "approved_or_denied_countries_or_regions": {
+            "enable": false
+        },
+        "breakout_room": {
+            "enable": false
+        },
+        "alternative_hosts_email_notification": true,
+        "device_testing": false,
+        "focus_mode": false,
+        "private_meeting": false,
+        "email_notification": true,
+        "host_save_video_order": false
+    },
+    "pre_schedule": false
+}
